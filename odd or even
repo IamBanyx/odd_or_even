@@ -1,0 +1,21 @@
+
+#code by IamBanyx
+
+num = int(input("enter a check number please: ")) #input for 1st. number
+check = int(input("enter a number to devide by: ")) #input for 2nd. number
+
+if num % 4 == 0:                        #telling that you can devide the number by 4
+    print("your number can be devided by 4")
+
+if num % 2 == 0:                      #telling that you can devide the number by 2
+    print("your number is EVEN")
+
+if num % 2 != 0:                    #telling that you cant devide the number by 2
+    print("your number is ODD")
+
+
+if num % check == 0:                  #telling that you can evenly devide check in num
+    print("num divides evenly by check")
+
+if num % check != 0:            #telling that you cant evenly devide check in num
+    print("num doesnt divide evenly by check")
